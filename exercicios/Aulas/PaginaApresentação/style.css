@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+.main-page{
+width: 100vw;
+  height: 100vh;
+  background: #201b2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-page{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-text{
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.text-desc {
+  color: #f0ffffde;
+  font-size: 2vh;
+  margin-top: 20px;
+  letter-spacing: 3px;
+  line-height: 25px;
+}
+ h1 {
+  font-size: 7vh;
+  color: #00ff88;
+  font-weight: 800;
+
+}
+.right-page{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.right-page img {
+  width: 50vw;
+  height: 50vh;
+}
+.btn {
+  width: auto;
+  padding: 16px 16px;
+  margin: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #2b134b;
+  background: #00ff88;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+.right-page img {
+  height: 80%;
+}
+
+@media (max-width:600px){
+  .main-page{
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 55px;
+  }
+}
